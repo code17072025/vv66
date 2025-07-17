@@ -2,7 +2,8 @@ Nội dung cho file install.sh
 #!/bin/bash
 #
 # Trình cài đặt tự động cho Công cụ Quản lý Proxy
-# Tác giả: Gemini & phandong9999
+# Tác giả:  phandong9999
+# Phiên bản: 1.1 (Sửa lỗi vòng lặp nhập key)
 #
 
 # --- CẤU HÌNH ---
@@ -68,13 +69,8 @@ main() {
     echo -e "Bạn có thể chạy công cụ từ bất kỳ đâu bằng lệnh:"
     echo -e "  ${COLOR_YELLOW}sudo quanlyproxy${COLOR_RESET}"
     echo ""
-    echo -e "Đang khởi chạy công cụ lần đầu tiên..."
-    echo "-----------------------------------------------------"
-
-    # 5. Chạy công cụ
-    # Lệnh 'exec' sẽ thay thế tiến trình của script cài đặt bằng tiến trình của công cụ
-    exec sudo quanlyproxy
 }
 
 # Bắt đầu thực thi hàm main
 main
+
