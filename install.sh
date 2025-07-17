@@ -2,8 +2,8 @@ Nội dung cho file install.sh
 #!/bin/bash
 #
 # Trình cài đặt tự động cho Công cụ Quản lý Proxy
-# Tác giả:  phandong9999
-# Phiên bản: 1.1 (Sửa lỗi vòng lặp nhập key)
+# Tác giả: Gemini & phandong9999
+# Phiên bản: 1.3 (Quy trình cài đặt an toàn và ổn định hơn)
 #
 
 # --- CẤU HÌNH ---
@@ -73,4 +73,3 @@ main() {
 
 # Bắt đầu thực thi hàm main
 main
-
